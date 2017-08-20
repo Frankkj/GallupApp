@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GallupApp</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="bvnr">BVNr</string>
+    <string name="mediabasis_stats">Mediabasis Stats</string>
+    <string name="kommuner">Kommuner</string>
+    <string name="lommeregner">Lommeregner</string>
+    <string name="skriv_dit_bvnr">Skriv dit BVNr</string>
+    <string name="kodeord">Kodeord</string>
+    <string name="s_g_efter_kommune">Søg efter kommune</string>
+    <string name="navn_p_kommune">Navn på kommune</string>
+    <string name="s_g">Søg</string>
+    <string name="skriv_postnummer">Skriv Postnummer</string>
+    <string name="sog_efter_kommune">Søg efter kommune:</string>
+</resources>
