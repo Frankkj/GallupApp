@@ -11,9 +11,6 @@ import android.widget.TextView;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * Created by frank on 25-08-2017.
- */
 
 public class ExpandableListAdapter extends BaseExpandableListAdapter {
     private Context context;

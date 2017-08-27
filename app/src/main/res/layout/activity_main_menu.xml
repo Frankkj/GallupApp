@@ -8,22 +8,19 @@
 
     <Button
         android:id="@+id/kommunerto"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:text="@string/kommunerto"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calcbutton"
-        app:layout_constraintVertical_bias="1.0" />
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/calcbutton" />
 
     <ImageView
         android:id="@+id/galluplogo"
@@ -55,7 +52,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.355" />
 
     <Button
         android:id="@+id/kommunebutton"
@@ -73,7 +70,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792"
+        app:layout_constraintVertical_bias="0.646"
         app:layout_constraintHorizontal_bias="0.0" />
 
     <Button
@@ -84,7 +81,6 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="0dp"
         android:text="@string/lommeregner"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -109,7 +105,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368"
+        app:layout_constraintVertical_bias="0.229"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp" />
 
@@ -122,11 +118,11 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.742"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp" />
 

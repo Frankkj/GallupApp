@@ -49,30 +49,39 @@ public class Kommunerto extends AppCompatActivity {
 
         List<String> bov = new ArrayList<>();
         bov.add("Bov hører til 6200 Aabenraa!");
+        bov.add("Bov ligger i Region Syddanmark");
 
         List<String> rodekro = new ArrayList<>();
         rodekro.add("Rødekro hører til 6200 Aabenraa!");
+        rodekro.add("Rødekro ligger i Region Syddanmark!");
 
         List<String> tinglev = new ArrayList<>();
         tinglev.add("Tinglev hører til 6200 Aabenraa!");
+        tinglev.add("Tinglev ligger i Region Syddanmark");
 
         List<String> aabenraa = new ArrayList<>();
         aabenraa.add("Aabenraa er bare 6200 Aabenraa!");
+        aabenraa.add("Aabenraa ligger i Region Syddanmark");
 
         List<String> tonder = new ArrayList<>();
         tonder.add("Tønder er bare 6270 Tønder!");
+        tonder.add("Tønder ligger i Region Syddanmark");
 
         List<String> bredebro = new ArrayList<>();
         bredebro.add("Bredebro hører til 6270 Tønder!");
+        bredebro.add("Bredebro ligger i Region Syddanmark");
 
         List<String> hojer = new ArrayList<>();
         hojer.add("Højer hører til 6270 Tønder!");
+        hojer.add("Højer ligger i Region Syddanmark");
 
         List<String> logumkloster = new ArrayList<>();
         logumkloster.add("Løgum Kloster hører til 6270 Tønder!");
+        logumkloster.add("Løgum Kloster ligger i Region Syddanmark");
 
         List<String> skaerbaek = new ArrayList<>();
         skaerbaek.add("Skærbæk hører til 6270 Tønder!");
+        skaerbaek.add("Skærbæk ligger i Region Syddanmark");
 
         listHash.put(listDataHeader.get(0),bov);
         listHash.put(listDataHeader.get(1),rodekro);
