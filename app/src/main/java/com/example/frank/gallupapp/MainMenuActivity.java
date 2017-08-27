@@ -19,6 +19,7 @@ public class MainMenuActivity extends AppCompatActivity {
         final Button mediabutton = (Button) findViewById(R.id.mediabutton);
         final Button kommunebutton = (Button) findViewById(R.id.kommunebutton);
         final Button calcbutton = (Button) findViewById(R.id.calcbutton);
+        final Button kommunerto = (Button) findViewById(R.id.kommunerto);
 
 
 
@@ -29,6 +30,7 @@ public class MainMenuActivity extends AppCompatActivity {
             }
         });
 
+
         kommunebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,6 +40,15 @@ public class MainMenuActivity extends AppCompatActivity {
             }
         });
 
+
+        kommunerto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent kommunertointent = new Intent(MainMenuActivity.this, Kommunerto.class);
+
+                MainMenuActivity.this.startActivity(kommunertointent);
+            }
+        });
 
 
         calcbutton.setOnClickListener(new View.OnClickListener() {

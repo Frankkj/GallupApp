@@ -24,9 +24,20 @@ public class LoginActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        final Button snydbutton = (Button) findViewById(R.id.snydbutton);
         final EditText etbvnr = (EditText) findViewById(R.id.etbvnr);
         final EditText etpass = (EditText) findViewById(R.id.etpass);
         final Button loginbutton = (Button) findViewById(R.id.loginbutton);
+
+
+        snydbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent snydintent = new Intent(LoginActivity.this, MainMenuActivity.class);
+
+                LoginActivity.this.startActivity(snydintent);
+            }
+        });
 
 
 
